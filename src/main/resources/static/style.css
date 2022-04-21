@@ -1,0 +1,47 @@
+table{
+    border-collapse: collapse;
+    width: 40%;
+}
+
+th{
+    background-color: lightgreen;
+}
+
+td, th{
+    border: 1px solid black;
+    text-align: left;
+    padding: 4px;
+}
+
+tr:nth-child(even){
+    background-color: aliceblue;
+}
+
+.btn{
+    border: none;
+    color: black;
+    padding: 7px 10px;
+    text-align: center;
+}
+
+.btn:hover{
+    box-shadow: 2px 2px 2px red;
+}
+
+#btn-create{
+    margin-bottom: 10px;
+    background-color: lightgreen;
+}
+
+#btn-viewOne{
+    margin-bottom: 10px;
+    background-color: lightgreen;
+}
+#btn-delete{
+    margin-bottom: 10px;
+    background-color: lightgreen;
+}
+#btn-update{
+    margin-bottom: 10px;
+    background-color: lightgreen;
+}
